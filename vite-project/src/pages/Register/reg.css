@@ -1,0 +1,17 @@
+.register-title {
+    position: absolute;
+    top: 75px;
+    left: 750px;
+    font-size: 48px;
+    font-family: "Itim", cursive;
+    width: 225px;
+    height: 58px;
+    color: #000000;
+}
+
+.reglogo {
+    position: absolute;
+    top: 10px;
+    width: 372px;
+    height: 104px;
+}
