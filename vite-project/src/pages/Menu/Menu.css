@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Itim", cursive;
+    background: #fff;
+    color: #1a1a1a;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 16px 24px;
+    background: #fff;
+    gap: 20px;
+    border-bottom: 1px solid #ececec;
+}
+
+.logo {
+    flex-shrink: 0;
+}
+
+.logo img {
+    height: 42px;
+    width: auto;
+    object-fit: contain;
+}
+
+.search-wrap {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding-top: 4px;
+}
+
+.search-box {
+    width: 380px;
+    background: #efefef;
+    border-radius: 22px;
+    border: 1.5px solid #d0d0d0;
+    padding: 9px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-box span {
+    font-family: "Itim", cursive;
+    font-size: 16px;
+    color: #888;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding: 10px 0 12px;
+    background: #fff;
+}
+
+.nav-item {
+    font-family: "Itim", cursive;
+    font-size: 18px;
+    font-weight: 400;
+    color: #1a1a1a;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    opacity: 0.6;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px 24px 40px;
+    gap: 0;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 12px 24px;
+    border: 1px solid #ececec;
+    background: #fff;
+    cursor: pointer;
+}
+
+.product-card:hover {
+    background: #fafafa;
+}
+
+.card-img-wrap {
+    width: 170px;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.card-img-wrap img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.card-name {
+    font-family: "Itim", cursive;
+    font-size: 18px;
+    font-weight: 400;
+    color: #1a1a1a;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+.card-price {
+    font-family: "Itim", cursive;
+    font-size: 14px;
+    font-weight: 400;
+    color: #1a1a1a;
+}
+
+.status-msg {
+    text-align: center;
+    padding: 48px;
+    font-family: "Itim", cursive;
+    font-size: 16px;
+    color: #888;
+}
+
+.status-msg.error {
+    color: #e53935;
+}

@@ -1,0 +1,302 @@
+[
+  {
+    "id": "LT001",
+    "brand": "Apple",
+    "name": "MacBook Air 13 inch M3 (2024)",
+    "price": 27990000,
+    "stock": 15,
+    "specs": {
+      "cpu": "Apple M3 8-Core",
+      "ram": "8GB Unified Memory",
+      "storage": "256GB SSD",
+      "screen": "13.6 inch Liquid Retina",
+      "gpu": "8-Core GPU"
+    },
+    "image": "/Lap/MacBookAir2024.png"
+  },
+  {
+    "id": "LT002",
+    "brand": "Apple",
+    "name": "MacBook Pro 14 inch M3 Pro (2024)",
+    "price": 50000000,
+    "stock": 6,
+    "specs": {
+      "cpu": "Apple M3 Pro 11-Core",
+      "ram": "18GB Unified Memory",
+      "storage": "512GB SSD",
+      "screen": "14.2 inch Liquid Retina XDR",
+      "gpu": "14-Core GPU"
+    },
+    "image": "/Lap/MacBookPro14Inch.png"
+  },
+  {
+    "id": "LT003",
+    "brand": "Asus",
+    "name": "Asus Zenbook 14 OLED UX3405",
+    "price": 28490000,
+    "stock": 12,
+    "specs": {
+      "cpu": "Intel Core Ultra 5 125H",
+      "ram": "16GB LPDDR5X",
+      "storage": "512GB NVMe PCIe 4.0",
+      "screen": "14.0 inch 3K OLED 120Hz",
+      "gpu": "Intel Arc Graphics"
+    },
+    "image": "/Lap/LaptopAsusZenbook.png"
+  },
+  {
+    "id": "LT004",
+    "brand": "Asus",
+    "name": "Asus ROG Strix G16 G614JV",
+    "price": 36990000,
+    "stock": 8,
+    "specs": {
+      "cpu": "Intel Core i7-13650HX",
+      "ram": "16GB DDR5 4800MHz",
+      "storage": "512GB NVMe PCIe 4.0",
+      "screen": "16.0 inch FHD+ 165Hz",
+      "gpu": "NVIDIA RTX 4060 8GB"
+    },
+    "image": "/Lap/AsusROGStrixG16.png"
+  },
+  {
+    "id": "LT005",
+    "brand": "Asus",
+    "name": "Asus Vivobook 14 X1404VA",
+    "price": 13490000,
+    "stock": 25,
+    "specs": {
+      "cpu": "Intel Core i3-1315U",
+      "ram": "8GB DDR4",
+      "storage": "512GB NVMe PCIe 3.0",
+      "screen": "14.0 inch FHD IPS",
+      "gpu": "Intel UHD Graphics"
+    },
+    "image": "/Lap/AsusVivobook14X1404VA.png"
+  },
+  {
+    "id": "LT006",
+    "brand": "Dell",
+    "name": "Dell XPS 13 9340 (2024)",
+    "price": 41990000,
+    "stock": 4,
+    "specs": {
+      "cpu": "Intel Core Ultra 7 155H",
+      "ram": "16GB LPDDR5X",
+      "storage": "512GB SSD NVMe",
+      "screen": "13.4 inch FHD+ InfinityEdge",
+      "gpu": "Intel Arc Graphics"
+    },
+    "image": "/Lap/DellXPS.png"
+  },
+  {
+    "id": "LT007",
+    "brand": "Dell",
+    "name": "Dell Inspiron 14 5440",
+    "price": 17490000,
+    "stock": 19,
+    "specs": {
+      "cpu": "Intel Core i5-1334U",
+      "ram": "16GB DDR5",
+      "storage": "512GB SSD PCIe",
+      "screen": "14.0 inch FHD+ Anti-Glare",
+      "gpu": "Intel Iris Xe Graphics"
+    },
+    "image": "/Lap/DellInspiron.png"
+  },
+  {
+    "id": "LT008",
+    "brand": "Dell",
+    "name": "Dell Vostro 3430",
+    "price": 12890000,
+    "stock": 0,
+    "specs": {
+      "cpu": "Intel Core i3-1305U",
+      "ram": "8GB DDR4",
+      "storage": "256GB SSD",
+      "screen": "14.0 inch FHD",
+      "gpu": "Intel UHD Graphics"
+    },
+    "image": "/Lap/DellVostro.png"
+  },
+  {
+    "id": "LT009",
+    "brand": "HP",
+    "name": "HP Pavilion 14-dv2073TU",
+    "price": 15990000,
+    "stock": 14,
+    "specs": {
+      "cpu": "Intel Core i5-1235U",
+      "ram": "8GB DDR4",
+      "storage": "512GB SSD NVMe",
+      "screen": "14.0 inch FHD IPS",
+      "gpu": "Intel Iris Xe Graphics"
+    },
+    "image": "/Lap/HPPavilion.png"
+  },
+  {
+    "id": "LT010",
+    "brand": "HP",
+    "name": "HP Envy x360 14-fa0045AU",
+    "price": 24990000,
+    "stock": 7,
+    "specs": {
+      "cpu": "AMD Ryzen 5 8640HS",
+      "ram": "16GB LPDDR5",
+      "storage": "512GB SSD PCIe",
+      "screen": "14.0 inch 2.8K OLED Touch",
+      "gpu": "AMD Radeon 760M"
+    },
+    "image": "/Lap/HPEvyx360.png"
+  },
+  {
+    "id": "LT011",
+    "brand": "HP",
+    "name": "HP Victus 16-r0129TX",
+    "price": 23990000,
+    "stock": 11,
+    "specs": {
+      "cpu": "Intel Core i5-13500H",
+      "ram": "16GB DDR5",
+      "storage": "512GB SSD",
+      "screen": "16.1 inch FHD 144Hz",
+      "gpu": "NVIDIA RTX 4050 6GB"
+    },
+    "image": "/Lap/HPVictus16.png"
+  },
+  {
+    "id": "LT012",
+    "brand": "Lenovo",
+    "name": "Lenovo IdeaPad Slim 3 14IAH8",
+    "price": 11990000,
+    "stock": 30,
+    "specs": {
+      "cpu": "Intel Core i5-12450H",
+      "ram": "8GB LPDDR5",
+      "storage": "512GB SSD NVMe",
+      "screen": "14.0 inch FHD IPS",
+      "gpu": "Intel UHD Graphics"
+    },
+    "image": "https://images.unsplash.com/photo-1629131726617-43523b653028?w=600&auto=format&fit=crop"
+  },
+  {
+    "id": "LT013",
+    "brand": "Lenovo",
+    "name": "Lenovo Yoga Slim 7 14IMH9",
+    "price": 29990000,
+    "stock": 5,
+    "specs": {
+      "cpu": "Intel Core Ultra 7 155H",
+      "ram": "32GB LPDDR5X",
+      "storage": "1TB SSD PCIe 4.0",
+      "screen": "14.0 inch WUXGA OLED",
+      "gpu": "Intel Arc Graphics"
+    },
+    "image": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=600&auto=format&fit=crop"
+  },
+  {
+    "id": "LT014",
+    "brand": "Lenovo",
+    "name": "Lenovo Legion 5 16IRX9",
+    "price": 38490000,
+    "stock": 9,
+    "specs": {
+      "cpu": "Intel Core i7-14650HX",
+      "ram": "16GB DDR5",
+      "storage": "1TB SSD NVMe",
+      "screen": "16.0 inch WQXGA 165Hz",
+      "gpu": "NVIDIA RTX 4060 8GB"
+    },
+    "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=600&auto=format&fit=crop"
+  },
+  {
+    "id": "LT015",
+    "brand": "MSI",
+    "name": "MSI Gaming Thin 15 B13UC",
+    "price": 16490000,
+    "stock": 16,
+    "specs": {
+      "cpu": "Intel Core i5-13420H",
+      "ram": "8GB DDR4 3200MHz",
+      "storage": "512GB SSD NVMe",
+      "screen": "15.6 inch FHD 144Hz",
+      "gpu": "NVIDIA RTX 3050 4GB"
+    },
+    "image": "https://images.unsplash.com/photo-1555538995-73ee831d1792?w=600&auto=format&fit=crop"
+  },
+  {
+    "id": "LT016",
+    "brand": "MSI",
+    "name": "MSI Cyborg 15 A12VF",
+    "price": 22990000,
+    "stock": 7,
+    "specs": {
+      "cpu": "Intel Core i7-12650H",
+      "ram": "16GB DDR5",
+      "storage": "512GB SSD PCIe",
+      "screen": "15.6 inch FHD 144Hz",
+      "gpu": "NVIDIA RTX 4060 8GB"
+    },
+    "image": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=600&auto=format&fit=crop"
+  },
+  {
+    "id": "LT017",
+    "brand": "Acer",
+    "name": "Acer Aspire 3 A315-510P",
+    "price": 9490000,
+    "stock": 40,
+    "specs": {
+      "cpu": "Intel Core i3-N305",
+      "ram": "8GB LPDDR5",
+      "storage": "256GB SSD NVMe",
+      "screen": "15.6 inch FHD Acer ComfyView",
+      "gpu": "Intel UHD Graphics"
+    },
+    "image": "https://images.unsplash.com/photo-1585399000684-d2f72660f092?w=600&auto=format&fit=crop"
+  },
+  {
+    "id": "LT018",
+    "brand": "Acer",
+    "name": "Acer Nitro V ANV15-51",
+    "price": 21490000,
+    "stock": 13,
+    "specs": {
+      "cpu": "Intel Core i5-13420H",
+      "ram": "16GB DDR5",
+      "storage": "512GB SSD",
+      "screen": "15.6 inch FHD 144Hz",
+      "gpu": "NVIDIA RTX 4050 6GB"
+    },
+    "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600&auto=format&fit=crop"
+  },
+  {
+    "id": "LT019",
+    "brand": "Acer",
+    "name": "Acer Swift Go 14 SFG14-73",
+    "price": 24990000,
+    "stock": 5,
+    "specs": {
+      "cpu": "Intel Core Ultra 5 125H",
+      "ram": "16GB LPDDR5X",
+      "storage": "512GB SSD NVMe",
+      "screen": "14.0 inch 2.8K OLED 90Hz",
+      "gpu": "Intel Arc Graphics"
+    },
+    "image": "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?w=600&auto=format&fit=crop"
+  },
+  {
+    "id": "LT020",
+    "brand": "Apple",
+    "name": "MacBook Pro 16 inch M3 Max (2024)",
+    "price": 89990000,
+    "stock": 2,
+    "specs": {
+      "cpu": "Apple M3 Max 14-Core",
+      "ram": "36GB Unified Memory",
+      "storage": "1TB SSD",
+      "screen": "16.2 inch Liquid Retina XDR",
+      "gpu": "30-Core GPU"
+    },
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600&auto=format&fit=crop"
+  }
+]
