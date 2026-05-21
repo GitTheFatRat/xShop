@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./Menu.css";
+import logoImg from "../../assets/xshoplogo-header.png";
 
 const formatPrice = (price) => price.toLocaleString("vi-VN") + " ₫";
 
@@ -26,32 +27,24 @@ function Menu() {
 
     return (
         <div>
-            {/* Header */}
             <div className="header">
                 <div className="logo">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        <circle cx="9" cy="21" r="1" />
-                        <circle cx="20" cy="21" r="1" />
-                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
-                    </svg>
-                    Xshop
+                    <img src={logoImg} alt="Xshop Logo" />
                 </div>
 
-                <div className="search-wrap">
-                    <div className="search-box">
+                <div className="search-box">
+                    <div className="search-box-inner">
                         <span>Search</span>
                     </div>
                 </div>
             </div>
 
-            {/* Navbar */}
             <nav className="navbar">
                 {["Home", "Yêu thích", "Giỏ hàng", "Cài đặt"].map((label) => (
                     <span key={label} className="nav-item">{label}</span>
                 ))}
             </nav>
 
-            {/* Nội dung */}
             {loading && <div className="status-msg">Đang tải dữ liệu...</div>}
             {error && <div className="status-msg error">Lỗi: {error}</div>}
 
