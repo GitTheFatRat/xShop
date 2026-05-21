@@ -21,13 +21,13 @@ body {
     border-bottom: 1px solid #ececec;
 }
 
-.logo {
+.menu-logo {
     display: flex;
     align-items: center;
     flex-shrink: 0;
 }
 
-.logo img {
+.menu-logo img {
     height: 48px;
     width: auto;
     max-width: 180px;
@@ -35,28 +35,38 @@ body {
     display: block;
 }
 
-.search-box {
+.header-right {
+    flex-shrink: 0;
+    width: 180px;
+}
+
+.search-wrap {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.search-box-inner {
+.search-input {
     width: 380px;
     background: #efefef;
     border-radius: 22px;
     border: 1.5px solid #d0d0d0;
     padding: 9px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.search-box-inner span {
     font-family: "Itim", cursive;
     font-size: 16px;
+    color: #1a1a1a;
+    outline: none;
+    transition: border-color 0.2s, background 0.2s;
+}
+
+.search-input::placeholder {
     color: #888;
+}
+
+.search-input:focus {
+    border-color: #aaa;
+    background: #e8e8e8;
 }
 
 .navbar {
@@ -132,7 +142,7 @@ body {
 }
 
 .status-msg {
-    text-align: center;
+    text-align: center; 
     padding: 48px;
     font-family: "Itim", cursive;
     font-size: 16px;

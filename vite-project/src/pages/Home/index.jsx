@@ -5,7 +5,7 @@ import "./home.css"
 const Home = () => {
     return (
         <div className="container">
-            <img src="src/assets/Logo.png" alt="Logo"  className="logo"/>
+            <img src="src/assets/Logo.png" alt="Logo"  className="home-logo"/>
             <Link to="/login" className="loginbtn">
                 <h2>Login</h2>
             </Link>

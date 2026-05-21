@@ -8,6 +8,7 @@ function Menu() {
     const [products, setProducts] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
+    const [search, setSearch] = useState("");
 
     useEffect(() => {
         fetch("/data.json")
@@ -28,15 +29,21 @@ function Menu() {
     return (
         <div>
             <div className="header">
-                <div className="logo">
+                <div className="menu-logo">
                     <img src={logoImg} alt="Xshop Logo" />
                 </div>
 
-                <div className="search-box">
-                    <div className="search-box-inner">
-                        <span>Search</span>
-                    </div>
+                <div className="search-wrap">
+                    <input
+                        className="search-input"
+                        type="text"
+                        placeholder="Search"
+                        value={search}
+                        onChange={(e) => setSearch(e.target.value)}
+                    />
                 </div>
+
+                <div className="header-right" />
             </div>
 
             <nav className="navbar">
