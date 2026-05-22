@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router";
+import { isFavorite, toggleFavorite } from "../favorites";
 import "./product.css";
 
 function formatPrice(price) {
@@ -24,6 +25,7 @@ export default function ProductDetail() {
         const found = data.find((p) => p.id === id);
         if (!found) throw new Error("Không tìm thấy sản phẩm");
         setProduct(found);
+        setLiked(isFavorite(id));
         setLoading(false);
       })
       .catch((err) => {
@@ -31,6 +33,11 @@ export default function ProductDetail() {
         setLoading(false);
       });
   }, [id]);
+
+  function handleFavoriteClick() {
+    const nowLiked = toggleFavorite(id);
+    setLiked(nowLiked);
+  }
 
   if (loading) return <div className="pd-status">Đang tải...</div>;
   if (error) return <div className="pd-status pd-error">{error}</div>;
@@ -50,7 +57,7 @@ export default function ProductDetail() {
           <button
             type="button"
             className="pd-btn-favorite"
-            onClick={() => setLiked(!liked)}
+            onClick={handleFavoriteClick}
           >
             {liked ? "🤍" : "❤️"}
           </button>
@@ -96,10 +103,11 @@ export default function ProductDetail() {
           </p>
 
           <button type="button" className="pd-btn-cart">
-            Thêm vào giỏ
+            Thêm vào giỏ hàng
           </button>
-          <button type="button" className="pd-btn-buy"> Mua </button>
-
+          <button type="button" className="pd-btn-buy">
+            Mua
+          </button>
         </div>
       </div>
     </div>

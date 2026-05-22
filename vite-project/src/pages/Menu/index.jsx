@@ -80,4 +80,19 @@ export default function Menu() {
       )}
     </div>
   );
-}
+}   
+
+const navItems = [
+  { label: "Home", to: "/mainhome" },
+  { label: "Yêu thích", to: "/yeu-thich" },
+  { label: "Giỏ hàng", to: "/mainhome" },
+  { label: "Cài đặt", to: "/mainhome" },
+];
+
+<nav className="navbar">
+  {navItems.map((item) => (
+    <Link key={item.label} to={item.to} className="nav-item" style={{ textDecoration: "none", color: "inherit" }}>
+      {item.label}
+    </Link>
+  ))}
+</nav>
