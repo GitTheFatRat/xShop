@@ -126,9 +126,41 @@
     transition: opacity 0.2s;
 }
 
-.pd-btn-cart:hover { opacity: 0.8; }
+.pd-btn-buy {
+    margin-top: 8px;
+    padding: 12px 32px;
+    background: #1a1a1a;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-family: "Itim", cursive;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: opacity 0.2s;
+}
+
+.pd-btn-buy:hover { opacity: 0.8; }
+.pd-btn-cart:hover { opacity: 0.8; }    
 
 @media (max-width: 640px) {
     .pd-container { flex-direction: column; }
     .pd-img-wrap { width: 100%; }
+}
+
+.pd-img-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.pd-btn-favorite {
+  margin-top: 12px;
+  border: none;
+  background: none;
+  font-size: 32px;
+  cursor: pointer;
+  padding: 4px;
+  line-height: 1;
 }
