@@ -7,6 +7,7 @@ import Menu from "./pages/Menu";
 import ProductDetail from "./ProductPages";
 import YeuThich from "./SidePages/YeuThich";
 import Cart from "./SidePages/Cart";
+import Setting from "./SidePages/Setting";
 
 export default function App() {
     const [cartItems, setCartItems] = useState([]);
@@ -48,6 +49,7 @@ export default function App() {
             <Route path="/mainhome" element={<Menu />} />
             <Route path="/product/:id" element={<ProductDetail addToCart={addToCart} />} />
             <Route path="/yeu-thich" element={<YeuThich />} />
+            <Route path="/setting" element={<Setting />} />
             <Route
                 path="/cart"
                 element={
