@@ -85,7 +85,7 @@ export default function Menu() {
 const navItems = [
   { label: "Home", to: "/mainhome" },
   { label: "Yêu thích", to: "/yeu-thich" },
-  { label: "Giỏ hàng", to: "/mainhome" },
+  { label: "Giỏ hàng", to: "/cart" },
   { label: "Cài đặt", to: "/mainhome" },
 ];
 

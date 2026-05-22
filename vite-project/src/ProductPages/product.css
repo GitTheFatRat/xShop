@@ -164,3 +164,14 @@
   padding: 4px;
   line-height: 1;
 }
+
+.pd-cart-msg {
+  font-size: 14px;
+  color: #0084ff;
+}
+
+.pd-btn-cart:disabled,
+.pd-btn-buy:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
