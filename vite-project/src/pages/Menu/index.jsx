@@ -51,7 +51,7 @@ export default function Menu() {
                     <input
                         className="search-input"
                         type="text"
-                        placeholder="Search"
+                        placeholder="Tìm kiếm sản phẩm, vd: Dell, Asus..."
                         value={search}
                         onChange={(e) => setSearch(e.target.value)}
                     />
